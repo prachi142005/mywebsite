@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 40px;
+    background-color: rgb(253, 249, 253);
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSpp7kDmt-b730g75DHMhpRr32HrRMxD9I_w&s');
+
+.container {
+    display: flex;
+    max-width: 600px;
+    margin: 0 auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    
+}
+
+.image-container {
+    flex: 1;
+    padding: 40px;
+}
+
+.image-container img {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.text-container {
+    flex: 2;
+    padding: 20px;
+    
+    button {
+    background-color: #007BFF; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+}
+
+h1 {
+    color: #333;
+}
+
+p {
+    line-height: 1.6;
+    color: #555;
+}
